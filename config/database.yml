@@ -9,9 +9,9 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: demo_app_development
+  database: rails_app_development
   pool: 5
-  username: root
+  username: devuser
   password: dekthai99
   host: localhost
 
@@ -22,9 +22,9 @@ test:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: demo_app_test
+  database: rails_app_test
   pool: 5
-  username: root
+  username: devuser
   password: dekthai99
   host: localhost
 
@@ -32,8 +32,8 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: demo_app_production
+  database: rails_app_production
   pool: 5
-  username: root
+  username: devuser
   password: dekthai99
   host: localhost
